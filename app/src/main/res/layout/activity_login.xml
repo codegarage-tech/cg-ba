@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_base" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screen_bg"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_150"
+                    android:layout_height="@dimen/dp_130"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/dp_30"
+                    android:background="@drawable/app_logo" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_15">
+
+                    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_20"
+                        android:background="@drawable/shape_rectangle_border_grey_bg_white"
+                        card_view:cardCornerRadius="0dp"
+                        card_view:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/color_white">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:background="@drawable/shape_rectangle_border_grey_bg_white"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="@dimen/dp_15"
+                                    android:background="@drawable/vector_user_name" />
+
+                                <EditText
+                                    android:id="@+id/edt_username"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@null"
+                                    android:gravity="center_vertical"
+                                    android:hint="User Name"
+                                    android:inputType="text"
+                                    android:paddingLeft="@dimen/dp_15"
+                                    android:paddingRight="@dimen/dp_15"
+                                    android:text=""
+                                    android:textColor="@color/color_grey_600"
+                                    android:textColorHint="@color/color_grey_600"
+                                    android:textSize="@dimen/sp_16" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/iv_accepted_user"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/vector_accepted"
+                                android:visibility="gone" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_30"
+                        android:background="@drawable/shape_rectangle_border_grey_bg_white"
+                        card_view:cardCornerRadius="0dp"
+                        card_view:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/color_white">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:background="@drawable/shape_rectangle_border_grey_bg_white"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_marginLeft="@dimen/dp_15"
+                                    android:background="@drawable/vector_ic_password_white" />
+
+                                <EditText
+                                    android:id="@+id/edt_user_password"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@null"
+                                    android:gravity="center_vertical"
+                                    android:hint="Password"
+                                    android:inputType="textPassword"
+                                    android:paddingLeft="@dimen/dp_15"
+                                    android:paddingRight="@dimen/dp_15"
+                                    android:text=""
+                                    android:textColor="@color/color_grey_600"
+                                    android:textColorHint="@color/color_grey_600"
+                                    android:textSize="@dimen/sp_16" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/iv_accepted_pin"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/vector_accepted"
+                                android:visibility="gone" />
+
+                        </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <Button
+                        android:id="@+id/btn_login"
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/selector_oval_border_white_bg_transparent"
+                        android:padding="@dimen/dp_5"
+                        android:text="@string/view_login"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/sp_18"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+<!--    <string name="app_name">BEPZA Appointment</string>-->
+
+    <!-- Title -->
+    <string name="txt_title_appointment_detail">APPOINTMENT DETAIL</string>
+
+    <!-- Progress Dialog -->
+    <string name="progress_dialog_loading">Loading...</string>
+    <string name="app_version_text">Version:</string>
+
+    <!-- View text -->
+    <string name="view_loading">Loading...</string>
+    <string name="view_appointment_date">Appointment Date</string>
+    <string name="view_appointment_serial_number">Serial Number</string>
+    <string name="view_appointment_time">Time</string>
+    <string name="view_appointment_from_date">From Date</string>
+    <string name="view_appointment_to_date">To Date</string>
+    <string name="view_appointment_with">Appointment With</string>
+    <string name="view_appointment_remarks">Remarks</string>
+    <string name="view_save">Save</string>
+    <string name="view_update">Update</string>
+    <string name="view_delete">Delete</string>
+    <string name="view_login">Login</string>
+    <string name="view_welcome">WELCOME</string>
+    <string name="view_todays_appointment_zero">Today\'s Appointments (0)</string>
+    <string name="view_todays_appointment">Today\'s Appointments </string>
+
+    <!-- Toast message -->
+    <string name="toast_data_save_successfully">Data saved successfully!!</string>
+    <string name="toast_data_updated_successfully">Data updated successfully!!</string>
+    <string name="toast_ignored_fast_click">Ignored fast click!</string>
+    <string name="toast_could_not_retrieve_info">Could not retrieve info</string>
+    <string name="toast_could_not_retrieve_device_info">Could not retrieve device info</string>
+    <string name="toast_network_error">You have no internet connection!\nPlease connect to internet.</string>
+    <string name="toast_no_info_found">No info found</string>
+    <string name="toast_please_input_your_username">Please input your username</string>
+    <string name="toast_please_input_your_password">Please input your password</string>
+    <string name="toast_please_input_your_appointment_date">Please input your appointment date</string>
+    <string name="toast_please_input_your_appointment_si_no">Please input your serial number</string>
+    <string name="toast_please_input_your_appointment_time">Please input your time</string>
+    <string name="toast_please_input_your_date">Please input your date</string>
+    <string name="toast_please_input_your_todate">Please input your to date</string>
+    <string name="toast_please_input_your_appointment_with">Please input your appoint with</string>
+    <string name="toast_please_input_your_appointment_remarks">Please input your remarks</string>
+    <string name="toast_you_can_not_add_or_edit_appointment_of_previous_date">You can not add/edit appointment of previous date</string>
+    <string name="toast_something_went_wrong">Something went wrong</string>
+
+    <!-- Dialog message -->
+    <string name="dialog_warning">Warning</string>
+    <string name="dialog_message">Message</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_retry">RETRY</string>
+    <string name="dialog_cancel">CANCEL</string>
+    <string name="dialog_do_you_want_to_log_out_from_the_app">Do you want to log out from the app?</string>
+    <string name="dialog_do_you_want_to_close_the_app">Do you want to close the app?</string>
+    <string name="dialog_log_out_title">Log Out</string>
+    <string name="dialog_close_app_title">Close App</string>
+    <string name="dialog_delete_appointment_title">Delete Appointment</string>
+    <string name="dialog_do_you_want_to_delete_this_appointment">Do you want to delete this appointment?</string>
+
+</resources>

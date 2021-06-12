@@ -23,7 +23,6 @@ test/
 target/
 gradlew
 gradlew.bat
-gradle.properties
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -45,5 +44,5 @@ captures/
 .idea/workspace.xml
 
 # Keystore files
-*.jks
-*.keystore
+#*.jks
+#*.keystore
